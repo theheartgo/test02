@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>ModiNum.html</title>
+   <meta http-equiv="content-type" content="text/html; charset=GBK">
+  </head>
+  <body>
+    <div align="center">当前位置--&gt;<font color="blue">修改订单的订书数量</font><hr>
+    <font color=#ff00ff>请您填写下面几项内容，然后点击“确定”按钮</font><br><br>
+    <form action="ModiNumPut.jsp" method="post">
+    <table align="center">
+ 		<tr>
+ 		<td>您的用户ID</td><td><input type="text" name="UserID"></td>
+ 		<TD>&nbsp;</TD><td>密&nbsp;&nbsp;码</td>
+ 		<td><input type="password" name="PassWo"></td>
+ 		</tr>
+ 		
+ 		<tr>
+ 		<td>订单号</td><td><input type="text" name="OrderID"></td>
+ 		<TD>&nbsp;</TD><td>订购书号</td>
+    	<td><input type="text" name="buyID"></td>
+    	</tr>
+    	
+    	<tr>
+    	<td>原数量</td><td><input type="text" name="OldNum"></td>
+    	<TD>&nbsp;</TD><td>新数量</td>
+    	<td><input type="text" name="NewNum"></td>
+    	</tr>
+    	
+    	<tr><td colspan=5 align="center">
+    	<input type="submit" value="确定"></td>
+    	</tr>
+    	
+    	</table>
+    	</form></div>
+  </body>
+</html>
